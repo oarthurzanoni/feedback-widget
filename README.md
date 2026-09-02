@@ -1,69 +1,42 @@
-![cover](.github/cover.png?style=flat)
+# Feedback Widget
 
+A full-stack feedback collection widget with web, mobile and API implementations.
 
-## 💻 Project
-Widget that allow users to send feedback about an app
+## Project goal
 
-## ✨ Techs
+Build a reusable feedback flow that lets users describe an issue, attach a screenshot and send the report while persisting it on the backend.
 
--   [ ] React Native
--   [ ] Typescript
--   [ ] Expo
--   [ ] Axios
--   [ ] React
--   [ ] Vite
--   [ ] Tailwind CSS
--   [ ] Jest 
--   [ ] Prisma
+## Features
 
+- Submit feedback with a category and message
+- Capture and attach screenshots
+- Persist feedback records
+- Send email notifications
+- Web and React Native clients
 
-## :hammer_and_wrench: Features 
+## Technologies
 
--   [ ] Submit screenshot
--   [ ] Submit comment
--   [ ] Send email
--   [ ] Save feedback into database
+- **TypeScript**
+- **React**
+- **React Native**
+- **Expo**
+- **Vite**
+- **Tailwind CSS**
+- **Node.js**
+- **Prisma**
+- **Jest**
 
+## What I learned
 
-## 🔖 Layout
+- Sharing a product concept across web and mobile clients
+- Designing an API-backed feedback workflow
+- Handling screenshots and external side effects
+- Separating frontend, mobile and server responsibilities
 
-You can see this project layout at [this link](https://www.figma.com/community/file/991338130828322960). A [Figma](http://figma.com/) account is required to do so.
+## Running locally
 
+Each workspace (`server`, `web` and `mobile`) has its own dependencies. Install them separately and configure the API URL and `DATABASE_URL` before starting the applications.
 
-## Running this project locally
+## About this repository
 
-Install dependencies using **yarn** or **npm**.
-
-Start the server
-
-```cl
-yarn dev
-```
-
-Start the web
-
-```cl
-yarn start
-```
-
-Start the mobile
-
-```cl
-expo start
-```
-
-Set config variables
-
-API
- 
- ```cl
-DATABASE_URL=
-```
-
-Web
-
- ```cl
-VITE_API_URL=
-```
-
-<br />
+This repository documents a learning project and the technical decisions explored while building it. It is not presented as a production-ready system.
